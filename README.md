@@ -74,7 +74,7 @@ function Library:CreateWindow(Config, Parent)
 	local function ResetAll()
 		for _,TabButton in pairs(TBContainer:GetChildren()) do
 			if TabButton:IsA("TextButton") then
-				TabButton.BackgroundTransparency = 0
+				TabButton.BackgroundTransparency = 1
 			end
 		end
 		for _,TabButton in pairs(TBContainer:GetChildren()) do
