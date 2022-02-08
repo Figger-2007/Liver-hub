@@ -55,7 +55,7 @@ function Library:CreateWindow(Config, Parent)
 	end
 	]]
 	
-	Screen.Name =  HttpService:GenerateGUID(false)
+	Screen.Name =  "IKAI"
 	Screen.Parent = Parent
 	Topbar.WindowName.Text = Config.WindowName
 
