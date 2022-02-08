@@ -1,3 +1,7 @@
+if game:GetService("CoreGui").IKAI then
+    game:GetService("CoreGui").IKAI:Destroy()
+end
+
 local Library = {Toggle = true,FirstTab = nil,TabCount = 0,ColorTable = {}}
 
 local RunService = game:GetService("RunService")
